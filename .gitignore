@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Output files (keep structure but ignore generated images)
+output/rendered_images/*.png
+output/rendered_images/*.jpg
+temp/uploads/*.png
+temp/uploads/*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+nul
+
+# Logs
+*.log
+
+# Test outputs
+output/comparison_*.png

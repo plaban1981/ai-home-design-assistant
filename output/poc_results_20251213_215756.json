@@ -1,0 +1,72 @@
+{
+  "timestamp": "2025-12-13T21:57:08.542928",
+  "input_image": "test_photos\\IMG20251213210129.jpg",
+  "target_style": "modern minimalist",
+  "budget_range": "moderate",
+  "workflow_steps": [
+    {
+      "step": "visual_assessment",
+      "agent": "VisualAssessor",
+      "output": {
+        "raw_analysis": {
+          "room_type": "bedroom",
+          "current_style": "eclectic",
+          "features": [
+            "cabinet_with_glass_doors",
+            "bed_frame_with_storage",
+            "overhead_light"
+          ],
+          "furniture": [
+            "bed",
+            "desk",
+            "small_table_or_stand"
+          ],
+          "colors": [
+            "pinkish-beige",
+            "brown",
+            "blue",
+            "black",
+            "gold"
+          ],
+          "lighting": "poor",
+          "dimensions_estimate": "small",
+          "condition": "needs_refresh",
+          "challenges": [
+            "cluttered_space",
+            "limited_workspace",
+            "poor_lighting",
+            "lack_of_defined_zones"
+          ],
+          "opportunities": [
+            "organization_and_storage_solutions",
+            "improved_lighting",
+            "desk_setup_optimization",
+            "color_scheme_update",
+            "personalization_with_decor"
+          ],
+          "image_path": "test_photos\\IMG20251213210129.jpg",
+          "model_used": "gemini-2.5-flash-image"
+        },
+        "professional_assessment": "**Bedroom Assessment: Eclectic Refresh**\n\n**1. Overall Impression:**\n\nThe bedroom presents as an eclectic space with a mix of furniture and colors. However, it currently feels cluttered and lacks a cohesive design. The poor lighting further detracts from the room's potential. While there are some interesting elements like the cabinet with glass doors and the bed frame with storage, the overall impression is one of needing organization and a style refinement.\n\n**2. Key Strengths to Build Upon:**\n\n*   **Eclectic Style Foundation:** The existing eclectic style provides a great base to build upon. It allows for incorporating diverse elements and personalization.\n*   **Functional Furniture Pieces:** The bed frame with storage and the existing desk are functional assets. The storage bed provides an immediate solution for reducing clutter, and the desk offers a workspace that can be optimized. The glass door cabinet offers display and storage.\n*   **Color Palette Potential:** The existing color palette (pinkish-beige, brown, blue, black, gold) has potential, even though it may not be working cohesively now. These colors can be refined and balanced to create a more harmonious and intentional look.\n\n**3. Design Challenges to Address:**\n\n*   **Cluttered Space:** This is the most pressing issue. Clutter detracts from the room's functionality and aesthetic appeal.\n*   **Poor Lighting:** Inadequate lighting makes the room feel smaller and less inviting. It also affects the functionality of the workspace.\n*   **Limited Workspace:** The desk setup appears insufficient or poorly organized, hindering productivity and comfort.\n*   **Lack of Defined Zones:** The room lacks clear zones for sleeping, working, and relaxing, resulting in a disorganized feel.\n*   **Color Cohesion:** While eclectic style thrives on variety, the current color scheme appears somewhat disjointed and requires better integration.\n\n**4. Recommendations for Transformation:**\n\n*   **Declutter and Organize:**\n    *   Begin by removing items that are no longer needed or used.\n    *   Utilize the storage bed to its full potential.\n    *   Consider additional storage solutions like shelves, baskets, or under-bed storage containers.\n    *   Edit the items displayed in the glass-door cabinet to create a curated display.\n*   **Enhance Lighting:**\n    *   Replace the overhead light with a brighter, more modern fixture.\n    *   Add task lighting to the desk area (e.g., a desk lamp) to improve visibility and focus.\n    *   Introduce ambient lighting (e.g., a floor lamp or table lamps) to create a warm and inviting atmosphere.\n    *   Consider using smart bulbs to control light color/temperature.\n*   **Optimize Desk Setup:**\n    *   Assess the desk's size and functionality. If it's too small, consider replacing it with a larger one or adding an extension.\n    *   Invest in ergonomic accessories like a comfortable chair, monitor stand, and keyboard tray.\n    *   Keep the desk surface clear of clutter and organize supplies using desk organizers.\n*   **Refine Color Scheme:**\n    *   Choose a dominant color (e.g., a muted pinkish-beige) and use it as a backdrop.\n    *   Introduce accent colors (e.g., blue and gold) in smaller doses through bedding, artwork, and accessories.\n    *   Use black sparingly as an accent to add contrast and definition.\n    *   Consider painting an accent wall to add visual interest and define a zone.\n*   **Define Zones:**\n    *   Create a distinct sleeping zone by arranging the bed as the focal point.\n    *   Define the workspace with a rug or by using a different wall color or decor.\n    *   If space allows, create a small relaxation zone with a comfortable chair and a small table.\n*   **Personalize with Decor:**\n    *   Incorporate artwork, photographs, and decorative objects that reflect your personality and style.\n    *   Add plants to bring life and freshness to the space.\n    *   Use textiles (e.g., throw pillows, blankets, curtains) to add texture and warmth.\n    *   Curate items in the glass door cabinet as a focal point, editing pieces for visual appeal.\n\n**5. Budget-Conscious Suggestions:**\n\n*   **Repurpose Existing Furniture:** Before buying new furniture, consider repurposing or refinishing what you already have.\n*   **DIY Decor:** Create your own artwork, decorative objects, or storage solutions to save money.\n*   **Shop Thrift Stores and Online Marketplaces:** Look for affordable furniture and decor at thrift stores, flea markets, and online marketplaces like Craigslist or Facebook Marketplace.\n*   **Focus on High-Impact Changes:** Prioritize changes that will have the biggest impact, such as decluttering, improving lighting, and refining the color scheme.\n*   **DIY Painting:** Painting is a relatively inexpensive way to transform a room.\n*   **Utilize Discount Codes and Sales:** When purchasing new items, look for discount codes and take advantage of sales.\n*   **Rearrange Furniture:** Sometimes, simply rearranging the furniture can make a big difference in the way a room feels.\n*   **Decluttering is Free:** The most impactful change, decluttering, costs nothing but time and effort.\n\nBy implementing these recommendations, the bedroom can be transformed into a more organized, functional, and aesthetically pleasing space that reflects your personal style.",
+        "image_path": "test_photos\\IMG20251213210129.jpg"
+      }
+    },
+    {
+      "step": "project_coordination",
+      "agent": "ProjectCoordinator",
+      "output": {
+        "rendering": {
+          "success": false,
+          "error": "whichOneof",
+          "error_details": "Traceback (most recent call last):\n  File \"C:\\Users\\nayak\\Documents\\Home_design assistant\\tools\\image_generator.py\", line 110, in generate_rendering\n    \"rendering_description\": response.text,\n                             ^^^^^^^^^^^^^\n  File \"C:\\Users\\nayak\\Documents\\Home_design assistant\\.venv\\Lib\\site-packages\\google\\generativeai\\types\\generation_types.py\", line 536, in text\n    part_type = protos.Part.pb(part).whichOneof(\"data\")\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: whichOneof. Did you mean: 'WhichOneof'?\n",
+          "prompt_used": "Generate a photorealistic interior design rendering of a bedroom.\n\nROOM SPECIFICATIONS:\n- Size: small\n- Key features to maintain: cabinet_with_glass_doors, bed_frame_with_storage, overhead_light\n\nDESIGN BRIEF:\nTransform this bedroom into a modern minimalist space.\n\nCurrent condition: needs_refresh\nRoom size: small\nKey features to maintain: cabinet_with_glass_doors, bed_frame_with_storage, overhead_light\n\nDesign goals:\n- Update to modern minimalist aesthetic\n- Improve lighting and atmosphere\n- Maximize functionality\n- Stay within moderate budget range\n\n\nTARGET STYLE: modern minimalist\n\nREQUIREMENTS:\n- Photorealistic quality\n- Maintain the room's structural features (windows, doors, layout)\n- modern minimalist aesthetic\n- Professional interior design quality\n- Warm, inviting atmosphere\n- Proper lighting and shadows\n- Realistic materials and textures\n\nCreate a stunning, magazine-quality rendering that the homeowner can use to make confident purchasing decisions."
+        },
+        "project_plan": "## Modern Minimalist Bedroom Renovation: Project Plan\n\nThis project plan outlines the renovation of a small bedroom into a modern minimalist space, maintaining existing key features and adhering to a moderate budget.\n\n**1. BUDGET BREAKDOWN**\n\n*   **Materials:**\n    *   Paint (walls, trim): \\$200\n    *   Flooring (e.g., laminate or vinyl plank): \\$400\n    *   Light Fixtures (updated overhead light): \\$150\n    *   Window Treatment (simple blinds or shades): \\$100\n    *   Hardware (cabinet pulls, door handles): \\$50\n    *   **Subtotal Materials:** \\$900\n*   **Furniture & Decor:**\n    *   Bedding (minimalist comforter set, pillows): \\$300\n    *   Area Rug (small, neutral color): \\$150\n    *   Decorative Items (minimal art prints, plants): \\$100\n    *   **Subtotal Furniture & Decor:** \\$550\n*   **Labor Costs:**\n    *   Painting: \\$400\n    *   Flooring Installation: \\$300\n    *   Electrical (light fixture installation): \\$100\n    *   **Subtotal Labor:** \\$800\n*   **Contingency (15%):** (\\$900 + \\$550 + \\$800) * 0.15 = \\$337.50 (Rounded to \\$338)\n*   **Total Estimated Cost:** \\$900 + \\$550 + \\$800 + \\$338 = **\\$2,588**\n\n**2. PROJECT TIMELINE**\n\n*   **Planning Phase (1 week):**\n    *   Day 1-2: Finalize design details, confirm material selections.\n    *   Day 3-5: Obtain quotes from contractors, finalize contracts.\n    *   Day 6-7:  Order materials, schedule deliveries.\n*   **Material Sourcing (1-2 weeks - overlaps with Planning):**\n    *   Ongoing: Confirm availability of chosen materials. Address any substitutions proactively.\n*   **Installation/Construction (1-2 weeks):**\n    *   Day 1-2: Remove existing flooring and window treatments. Prepare surfaces for painting.\n    *   Day 3-5: Painting (walls, trim).\n    *   Day 6-8: Flooring installation.\n    *   Day 9: Install new light fixture.\n*   **Styling and Finishing (2-3 days):**\n    *   Day 1: Install window treatments.\n    *   Day 2: Arrange furniture, place rug.\n    *   Day 3: Add decorative items, final touches.\n*   **Total Estimated Duration: 3-5 weeks**\n\n**3. CONTRACTOR RECOMMENDATIONS**\n\n*   **Types of Contractors Needed:**\n    *   Painter\n    *   Flooring Installer\n    *   Handyman/Electrician (for light fixture installation)\n*   **Skills Required:**\n    *   Painter: Experience with interior painting, surface preparation, clean lines.\n    *   Flooring Installer:  Experience with chosen flooring type (laminate, vinyl plank, etc.), precise cutting and installation.\n    *   Handyman/Electrician: Safe and code-compliant electrical work, general handyman skills for minor repairs.\n*   **Estimated Labor Hours:**\n    *   Painting: 24-32 hours (depending on room size and complexity)\n    *   Flooring Installation: 16-24 hours (depending on room size and flooring type)\n    *   Electrical: 2-4 hours\n\n**4. SHOPPING LIST**\n\n*   **Priority Order for Purchases:**\n    1.  **Paint:** Essential for setting the base tone of the room. Purchase immediately after finalizing color choice. (Suggested Retailers: Home Depot, Lowe's, Sherwin-Williams)\n    2.  **Flooring:**  Crucial for the overall aesthetic. Order early to allow for delivery and acclimatization if necessary. (Suggested Retailers:  Lumber Liquidators, Home Depot, Lowe's)\n    3.  **Light Fixture:**  Important for functionality and style. Purchase after confirming electrical requirements. (Suggested Retailers:  Wayfair, Lamps Plus, Home Depot)\n    4.  **Window Treatment:**  Provides privacy and light control. (Suggested Retailers:  IKEA, Amazon, Target, Blinds.com)\n    5.  **Bedding:** Essential for comfort and completing the minimalist look (Suggested Retailers: IKEA, Amazon, Target)\n    6. **Area Rug:** adds texture and comfort, but can be selected after the flooring is in place. (Suggested Retailers: Rugs.com, Wayfair, Overstock)\n    7.  **Decorative Items:**  Final touches to personalize the space. Purchase after furniture is in place to ensure cohesive design. (Suggested Retailers: Target, IKEA, Amazon, HomeGoods)\n    8.  **Hardware:** Update cabinet pulls and door handles (Suggested Retailers: Home Depot, Lowe's, Amazon)\n*   **Key Items Needed:**\n    *   Paint (Primer, Wall Paint, Trim Paint)\n    *   Flooring (Underlayment, Flooring Material)\n    *   Light Fixture (Overhead Light)\n    *   Window Treatment (Blinds or Shades)\n    *   Bedding Set (Comforter, Sheets, Pillowcases)\n    *   Area Rug\n    *   Decorative Items (Art Prints, Plants)\n    *   Cabinet/Drawer Hardware\n    *   Painting Supplies (brushes, rollers, tape, drop cloths)\n    *   Flooring Installation Tools (depending on flooring type)\n    *   Electrical Tools (wire strippers, testers)\n\nThis project plan provides a comprehensive guide to renovating the bedroom. The budget and timeline are estimates and may vary depending on specific choices and local labor costs. It's recommended to obtain multiple quotes from contractors and carefully review all material selections before proceeding.",
+        "design_style": "modern minimalist",
+        "budget_range": "moderate",
+        "room_type": "bedroom"
+      }
+    }
+  ],
+  "status": "success"
+}

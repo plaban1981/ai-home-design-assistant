@@ -1,0 +1,8 @@
+{
+  "timestamp": "2025-12-13T21:32:12.942798",
+  "input_image": "test_photos\\IMG20251213210129.jpg",
+  "target_style": "modern minimalist",
+  "budget_range": "moderate",
+  "workflow_steps": [],
+  "error": "\n  No API_KEY or ADC found. Please either:\n    - Set the `GOOGLE_API_KEY` environment variable.\n    - Manually pass the key with `genai.configure(api_key=my_api_key)`.\n    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information."
+}

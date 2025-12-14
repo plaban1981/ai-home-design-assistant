@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-12-13T21:34:59.459182",
+  "input_image": "test_photos\\IMG20251213210129.jpg",
+  "target_style": "modern minimalist",
+  "budget_range": "moderate",
+  "workflow_steps": [],
+  "status": "error",
+  "error": "'Task' object has no attribute 'execute'"
+}
