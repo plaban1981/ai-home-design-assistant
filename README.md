@@ -261,3 +261,18 @@ POC created by the BMAD team:
 ## 📄 License
 
 POC - Internal use only
+
+
+
+## UI
+
+<img width="1851" height="682" alt="image" src="https://github.com/user-attachments/assets/37ff08bd-f111-4b30-89d4-a84616aba523" />
+
+<img width="1860" height="657" alt="image" src="https://github.com/user-attachments/assets/1cdae653-924b-4f24-a973-084bc6e52cee" />
+
+<img width="1845" height="752" alt="image" src="https://github.com/user-attachments/assets/ac17a8fd-9899-4562-9450-bf3f27e58869" />
+
+<img width="1813" height="541" alt="image" src="https://github.com/user-attachments/assets/c520b94f-c126-4385-9e9b-69670a34a7e2" />
+
+
+
